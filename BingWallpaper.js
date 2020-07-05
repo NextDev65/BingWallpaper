@@ -5,9 +5,9 @@ try {
   document.getElementsByClassName("vs")[0].remove();
   
   document.getElementsByClassName("musCard")[0].style.opacity=.56;
-  name = document.getElementById("iotd_title").innerHTML;
-  if (!name) {name = document.getElementsByClassName("title")[1].innerHTML;}
 }
 finally {
+  name = document.getElementById("iotd_title").innerHTML;
+  if (!name) {name = document.getElementsByClassName("title")[1].innerHTML;}
   alert(name + ".jpg");
 }
