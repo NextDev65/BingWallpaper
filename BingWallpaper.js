@@ -7,7 +7,7 @@ try {
   document.getElementsByClassName("musCard")[0].style.opacity=.56;
 }
 finally {
-  name = document.getElementById("iotd_title").innerHTML;
-  if (!name) {name = document.getElementsByClassName("title")[1].innerHTML;}
+  name = document.getElementsByClassName("title")[1].innerHTML;
+  if (!name) {name = document.getElementById("iotd_title").innerHTML;}
   alert(name + ".jpg");
 }
