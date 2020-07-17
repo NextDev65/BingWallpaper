@@ -9,5 +9,8 @@ try {
 finally {
   name = document.getElementsByClassName("title")[1].innerHTML;
   if (!name) {name = document.getElementById("iotd_title").innerHTML;}
-  alert(name + ".jpg");
+  
+  dlButton = document.getElementsByClassName("downloadLink")[0];
+  dlButton.download = name + ".jpg";
+  dlButton.click();
 }
