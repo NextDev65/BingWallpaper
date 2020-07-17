@@ -1,5 +1,5 @@
 # BingWallpaper
-JavaScript Bookmarklet that removes all the non-wallpaper things from bing.com and displays title.jpg in alert
+JavaScript Bookmarklet that removes all the non-wallpaper things from bing.com and downloads the wallpaper as title.jpg
 ________________
 Replace INSERT with the code from [BingWallpaper.js](BingWallpaper.js)  
 Create a bookmark with
