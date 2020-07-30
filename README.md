@@ -15,4 +15,4 @@ as the source/url
 Open on bing.com
 ________________
 Open to feedback!  
-Just drop an issue on github :]  
+Just drop an issue on github : ]  
