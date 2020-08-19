@@ -32,6 +32,10 @@
         "scripts": ["background.js"],
         "persistent": false
     },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
     "permissions": [
         "storage",
         "notifications"
