@@ -1,4 +1,4 @@
-for (i = 1; i < 21; i++) {
+for (i = 1; i < 20; i++) {
     setTimeout(function () {
         try {
             document.getElementsByClassName("shaders")[0].remove();
@@ -29,7 +29,7 @@ for (i = 1; i < 21; i++) {
                 sevenDays.unshift(title);
                 setTimeout(function () {
                     dlButton.click();
-                }, 1000);
+                }, 2000);
             }
             if (sevenDays.length > 0) {
                 sevenDays.pop();
