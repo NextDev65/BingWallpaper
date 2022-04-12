@@ -8,9 +8,9 @@ Click on the "Load unpacked" button
 Select the directory containing the unpacked extension
 ________________
 ### Bookmarklet ###
-Replace INSERT with the code from [BingWallpaper.js](BingWallpaper.js)  
 Create a bookmark with  
 **`javascript:(function(){INSERT})();`**  
+Replace INSERT with the code from [BingWallpaper.js](BingWallpaper.js)  
 as the source/url  
 Open on bing.com
 ________________
