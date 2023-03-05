@@ -1,10 +1,16 @@
-for (i = 1; i < 20; i++) {
+for (i = 1; i < 15; i++) {
     setTimeout(function () {
         try {
+			// top shader
             document.getElementsByClassName("shaders")[0].remove();
+			// top bar
             document.getElementsByClassName("hp_cont")[0].remove();
+			// floating quiz
+			document.getElementsByClassName('hp_trivia_outer show')[0].remove();
+			// bottom carousel
             document.getElementById("scroll_cont").className = "scroll_cont show_none";
             document.getElementsByClassName("vs")[0].remove();
+			// description card
             document.getElementsByClassName("musCard")[0].style.opacity = .56;
         } catch (e) {}
         var title = document.getElementsByClassName("title")[1].innerHTML;
@@ -12,8 +18,8 @@ for (i = 1; i < 20; i++) {
             title = document.getElementById("iotd_title").innerHTML;
         }
 		
-		// document.getElementsByClassName("downloadLink")[0].href.split("&rf")[0]
-		var dlButton = document.getElementsByClassName("downloadLink")[0];
+	// document.getElementsByClassName("downloadLink")[0].href.split("&rf")[0]
+	var dlButton = document.getElementsByClassName("downloadLink")[0];
         dlButton.download = title + ".jpg";
 		
         // by passing an object you can define default values e.g.: []
