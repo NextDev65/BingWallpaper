@@ -1,16 +1,16 @@
 for (i = 1; i < 15; i++) {
     setTimeout(function () {
         try {
-			// top shader
+            // top shader
             document.getElementsByClassName("shaders")[0].remove();
-			// top bar
+            // top bar
             document.getElementsByClassName("hp_cont")[0].remove();
-			// floating quiz
-			document.getElementsByClassName('hp_trivia_outer show')[0].remove();
-			// bottom carousel
+            // floating quiz
+            document.getElementsByClassName('hp_trivia_outer show')[0].remove();
+            // bottom carousel
             document.getElementById("scroll_cont").className = "scroll_cont show_none";
             document.getElementsByClassName("vs")[0].remove();
-			// description card
+            // description card
             document.getElementsByClassName("musCard")[0].style.opacity = .56;
         } catch (e) {}
         var title = document.getElementsByClassName("title")[1].innerHTML;
